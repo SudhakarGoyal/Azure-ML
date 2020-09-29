@@ -11,7 +11,7 @@ This model is then compared to an Azure AutoML run.
 **We got our best performing model through AutoML. VotingEnsemble performed the best giving an accuracy of 94.99. The accuracy received from hyperdrive was approximately 91% whihc is not bad and in my opinion can be improved further considering many more hyperprameter iptimization**
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+**The data was read in a tabular form and was on hot encoded in a way that yes and no were converted to 1's and 0's respectively. As this was a classification task, scikit learn is currently just using Logistic regression for binary classification. The model needs to predict whether the client will subscribe to term deposit based on several features.**
 
 **The parameter sampler chosen is really simple. We just wish to check wich optimizer works better than the other given the same hyperparameters. Not much of a differecne has been noted though between Adam and SGD for the specfic dataset in contention**
 
