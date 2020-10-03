@@ -3,10 +3,13 @@
 
 # Your Project Title Here
 
-*TODO:* Write an overview to your project.
+In this project we use the Bank Marketing dataset to showcase how you we can use AutoML for training, deploying the best model, creating an endpooint and publishing the subsequent created pipeline . The classification goal is to predict if the client will subscribe to a term deposit with the bank on the basis of client specific festueres like age, job, marital status, education, housing, loan etc"
+
+We got our best performing model through AutoML. LughtGBM performed the best giving an accuracy of 95.404. 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+![alt text](https://github.com/SudhakarGoyal/Azure-ML/blob/master/screenshots/architecture.png)
+The first and foremost step is to create a workspace which is shown 
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
