@@ -29,4 +29,4 @@ It is a long one as udaicty required pretty much everything with audio as well.
 
 ## Standout Suggestions
 I believe data transformtion should be tried and tested. We haven't really done data exploration which is an important data pre processing step. Finding correlation between data and then either forming more or less feature columns is the key to better performance. 
-Also coversion of model is ONNX for deploying/ using models for other frameworks can also be a point for an overall architecture improvement.
+Also conversion of model is ONNX for deploying/ using models for other frameworks can also be a point for an overall architecture improvement.
