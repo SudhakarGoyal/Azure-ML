@@ -3,7 +3,7 @@
 
 In this project we use the Bank Marketing dataset to showcase how you we can use AutoML for training, deploying the best model, creating an endpooint and publishing the subsequent created pipeline . The classification goal is to predict if the client will subscribe to a term deposit with the bank on the basis of client specific festueres like age, job, marital status, education, housing, loan etc"
 
-We got our best performing model through AutoML. LughtGBM performed the best giving an accuracy of 95.404. 
+We got our best performing model through AutoML. LightGBM performed the best giving an accuracy of 95.404. 
 
 ## Architectural Diagram
 ![alt text](https://github.com/SudhakarGoyal/Azure-ML/blob/master/screenshots/architecture.png)
