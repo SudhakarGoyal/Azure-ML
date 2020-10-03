@@ -11,7 +11,7 @@ We got our best performing model through AutoML. LughtGBM performed the best giv
 The first and foremost step is to create a workspace which is shown at the cetre of the architecture as well. Using a compute instannce for training, testing and deployment of the model is also an important and next step in the pipeline. Training of the model after having loaded the dataset follows next. The best trained model is considered for deployment which creates an endpoint with REST endpoint url along with Swagger.json file. We also enable the app_insights to visualize any server requests or server response time. Next the pipeline is published. 
 
 ## Key Steps
-THe important stpes in the completion of an end to end model deplyment scenario involves the following steps
+The important steps in the completion of an end to end model deployment scenario involves the following steps
 
 1) Authentication of user for use of Azure
 2) Creation of a machine learning workspace for carrying out ML related work
@@ -29,4 +29,4 @@ It is a long one as udaicty required pretty much everything with audio as well.
 
 ## Standout Suggestions
 I believe data transformtion should be tried and tested. We haven't really done data exploration which is an important data pre processing step. Finding correlation between data and then either forming more or less feature columns is the key to better performance. 
-Also coversion of model is ONNX for deplying/ using models for other frameworks can also be a point for an overall architecture improvement.
+Also coversion of model is ONNX for deploying/ using models for other frameworks can also be a point for an overall architecture improvement.
