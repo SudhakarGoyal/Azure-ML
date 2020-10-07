@@ -6,7 +6,7 @@ In this project we use the Bank Marketing dataset to showcase how you we can use
 We got our best performing model through AutoML. LightGBM performed the best giving an accuracy of 95.404. 
 
 ## Architectural Diagram
-![alt](https://github.com/SudhakarGoyal/Azure-ML/tree/master/operationalizing_machine_learning/screenshots/architecture.png)
+![architecture](https://github.com/SudhakarGoyal/Azure-ML/tree/master/operationalizing_machine_learning/screenshots/architecture.png)
 
 The first and foremost step is to create a workspace which is shown at the cetre of the architecture as well. Using a compute instannce for training, testing and deployment of the model is also an important and next step in the pipeline. Training of the model after having loaded the dataset follows next. The best trained model is considered for deployment which creates an endpoint with REST endpoint url along with Swagger.json file. We also enable the app_insights to visualize any server requests or server response time. Next the pipeline is published. 
 
