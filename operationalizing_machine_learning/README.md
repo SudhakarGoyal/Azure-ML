@@ -7,6 +7,7 @@ We got our best performing model through AutoML. LightGBM performed the best giv
 
 ## Architectural Diagram
 ![architecture](screenshots/architecture.png)
+
 ![](screenshots/Screenshot from 2020-10-09 09-55-14.png)
 ![](screenshots/Screenshot from 2020-10-09 09-58-27.png)
 ![](screenshots/Screenshot from 2020-10-09 09-55-43.png)
