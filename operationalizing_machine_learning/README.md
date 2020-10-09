@@ -8,15 +8,15 @@ We got our best performing model through AutoML. LightGBM performed the best giv
 ## Architectural Diagram
 ![architecture](screenshots/architecture.png)
 
-![](screenshots/Screenshot from 2020-10-09 09-55-14.png)
-![](screenshots/Screenshot from 2020-10-09 09-58-27.png)
-![](screenshots/Screenshot from 2020-10-09 09-55-43.png)
-![](screenshots/Screenshot from 2020-10-09 09-59-06.png)
 
 The first and foremost step is to create a workspace which is shown at the cetre of the architecture as well. Using a compute instannce for training, testing and deployment of the model is also an important and next step in the pipeline. Training of the model after having loaded the dataset follows next. The best trained model is considered for deployment which creates an endpoint with REST endpoint url along with Swagger.json file. We also enable the app_insights to visualize any server requests or server response time. Next the pipeline is published. 
 
 ## Key Steps
 The important steps in the completion of an end to end model deployment scenario involves the following steps
+![](screenshots/Screenshot from 2020-10-09 09-55-14.png)
+![](screenshots/Screenshot from 2020-10-09 09-58-27.png)
+![](screenshots/Screenshot from 2020-10-09 09-55-43.png)
+![](screenshots/Screenshot from 2020-10-09 09-59-06.png)
 
 1) Authentication of user for use of Azure
  ![](screenshots/1.png)
